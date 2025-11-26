@@ -1,0 +1,14 @@
+{
+   "package-id" : "lt.hl7.fhir.lab",
+   "version" : "0.0.1",
+   "path" : "https://hl7.lt/fhir/lab/0.0.1",
+   "mode" : "milestone",
+   "status" : "draft",
+   "sequence" : "DSTU1",
+   "desc" : "Initial version of the Lab FHIR IG.",
+   "first" : true,
+   "title" : "Lithuanian Laboratory FHIR Implementation Guide",
+   "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-lab",
+   "category" : "Laboratory",
+   "introduction" : "A set of the base FHIR conventions and resources for Lithuania."
+}
