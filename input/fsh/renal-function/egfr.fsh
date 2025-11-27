@@ -1,5 +1,5 @@
-ValueSet: EGFRMethodsLt
-Id: egfr-methods-lt
+ValueSet: EGFRMethodLabLt
+Id: egfr-method-lab-lt
 Title: "eGFR. Estimated Glomerular Filtration Rate Methods"
 Description: "LOINC codes representing eGFR measurements calculated using CKD-EPI formulas (original and 2021 revision)."
 * ^language = #en
@@ -24,7 +24,7 @@ Description: "Observation representing estimated glomerular filtration rate (eGF
 * ^experimental = true
 * ^publisher = "HL7 Lithuania"
 * category = $observation-category#laboratory "Laboratory"
-* code from EGFRMethodsLt (required)
+* code from EGFRMethodLabLt (required)
 * subject 1..
 * subject only Reference(LTBasePatient)
 * effective[x] 1..

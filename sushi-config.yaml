@@ -181,8 +181,7 @@ groups:
     - StructureDefinition/triglycerides-lab-lt
     - StructureDefinition/lipidogram-lab-lt
     - StructureDefinition/glucose-venous-lab-lt
-    # valuesets:
-    # - ValueSet/cholesterol-ldl-method-lt
+    - ValueSet/cholesterol-ldl-method-lab-lt
   GroupB:
     name: "Glycemic Control"
     description: "Glycemic Control observations and Diabetes Monitoring"
@@ -195,8 +194,7 @@ groups:
     - StructureDefinition/acr-lab-lt
     - StructureDefinition/creatinine-test-lab-lt
     - StructureDefinition/egfr-lab-lt
-    # valuesets:
-    # - ValueSet/egfr-methods-lt
+    - ValueSet/egfr-method-lab-lt
 
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
