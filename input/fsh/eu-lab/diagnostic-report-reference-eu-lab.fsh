@@ -2,7 +2,7 @@ Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
 
 Extension: DiagnosticReportReference
 Id: composition-diagnosticReportReference
-Title: "Document DiagnosticReport Reference (Eu Lab)"
+Title: "Extension: Document DiagnosticReport Reference (Eu Lab)"
 Description: "This extension provides a reference to the DiagnosticReport instance that is associated with this Composition."
 Context: Composition
 * ^language = #en
