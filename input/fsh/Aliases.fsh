@@ -1,7 +1,10 @@
 Alias: $loinc = http://loinc.org
 Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
+Alias: $icd-10-vs = http://hl7.org/fhir/ValueSet/icd-10
 Alias: $sct = http://snomed.info/sct
 Alias: $sct-vs = http://snomed.info/sct?fhir_vs
+Alias: $icd-o-3 = http://terminology.hl7.org/CodeSystem/icd-o-3
+Alias: $icd-o-3-vs = http://terminology.hl7.org/ValueSet/icd-o-3
 
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $units-of-time = http://hl7.org/fhir/ValueSet/units-of-time
@@ -91,8 +94,10 @@ Alias: $lt-practitioner = https://hl7.lt/fhir/base/StructureDefinition/lt-practi
 Alias: $lt-practitioner-role = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role
 Alias: $lt-organization = https://hl7.lt/fhir/base/StructureDefinition/lt-organization
 Alias: $lt-encounter = https://hl7.lt/fhir/base/StructureDefinition/lt-encounter
+Alias: $lt-condition = https://hl7.lt/fhir/base/StructureDefinition/lt-condition
+Alias: $lt-diagnostic-report = https://hl7.lt/fhir/base/StructureDefinition/lt-diagnostic-report
+Alias: $lt-observation = https://hl7.lt/fhir/base/StructureDefinition/lt-observation
 
 // Lab
-Alias: 
-$lab-specialty-eu-lab = http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab
+Alias: $lab-specialty-eu-lab = http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074

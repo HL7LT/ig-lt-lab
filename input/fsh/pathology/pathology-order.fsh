@@ -16,7 +16,9 @@ Description: "This profile defines how to represent an pathology orders."
 * . ^definition = "Pathology Order composition."
 * identifier 1.. MS
 * category = $sct#721966001 "Pathology order"
+* code 1..1 MS
 * code from $lab-specialty-eu-lab (preferred)
+* subject 1..1 MS
 * subject only Reference($lt-patient)
 * occurrence[x] ..1 MS
 * priority 1.. MS
@@ -28,6 +30,8 @@ Description: "This profile defines how to represent an pathology orders."
 * authoredOn ..1 MS
 * specimen MS
 * supportingInfo MS
+* reason MS
+* reason only CodeableReference($lt-condition or $lt-observation or $lt-diagnostic-report)
 
 
 

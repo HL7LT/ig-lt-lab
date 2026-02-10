@@ -3,7 +3,7 @@ Alias: $lab-specimenContainer-eu-lab = http://hl7.eu/fhir/laboratory/ValueSet/la
 
 Extension: SpecimenContainerType
 Id: specimen-container-type
-Title: "Specimen Container Type"
+Title: "Extension: Specimen Container Type"
 Description: "Type of container used for the specimen."
 Context: Specimen.container
 // * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"

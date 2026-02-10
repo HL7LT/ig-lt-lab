@@ -23,3 +23,14 @@ Usage: #example
 * performer = Reference(Practitioner/example-practitioner)
 * valueCodeableConcept = $sct#10828004 "Positive"
 * specimen = Reference(Specimen/specimen-right-breast-example)
+
+Instance: observation-her2-receptor-status
+InstanceOf: Her2ReceptorStatusLtPat
+Title: "Observation: Her2 Receptor Status Example"
+Usage: #example
+* status = #final
+* code = $loinc#31150-6 "ERBB2 gene duplication [Presence] in Tissue by FISH"
+* subject = Reference(Patient/example-patient)
+* effectiveDateTime = "2022-10-25T13:35:00+01:00"
+* performer = Reference(Practitioner/example-practitioner)
+* valueCodeableConcept = Her2ReceptorStatus#1 "Her2 overexpressed or gene amplified"
