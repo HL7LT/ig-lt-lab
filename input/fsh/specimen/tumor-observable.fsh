@@ -33,7 +33,8 @@ Description: "Definition of the Observation for the Tumor Observable"
 * component ^definition = "Used to report the physical dimensions and weight of a Tumor."
 * component contains
     focality 0..1 MS  and fociNr 0..1 MS and type 0..1 MS and location 0..1 MS and
-    noduleNr 0..1 MS and noduleSite 0..1 MS
+    noduleNr 0..1 MS and noduleSite 0..1 MS and noduleSize 0..1 MS and 
+    extent 0..1 MS
     
 * specimen = Reference(Specimen/specimen-right-breast-example)
 * component[fociNr].code = $sct#443748007 "Number of malignant neoplasm foci"
@@ -58,9 +59,18 @@ Description: "Definition of the Observation for the Tumor Observable"
 * component[noduleNr].valueQuantity ^short = "The number of tumor nodules"
 * component[noduleSite].code = $sct#406084004 "Tumor nodule site (observable entity)"
 * component[noduleSite].value[x] only CodeableConcept
+* component[noduleSize].code = $sct#385398005 "Tumor size, dominant nodule, greatest dimension (observable entity)"
+* component[noduleSize].valueQuantity.system = $ucum
+* component[noduleSize].valueQuantity.code = #mm
+* component[noduleSize].valueQuantity.unit = "mm"
+* component[noduleSize].valueQuantity ^short = "The size of the dominant tumor nodule in millimeters"
 // * component[noduleSite].valueCodeableConcept from $body-site (required)
 * component[noduleSite].valueCodeableConcept ^short = "The nodule plane for tumor location."
-
+* component[extent].code = $sct#258263003 "Generic tumor extent (observable entity)"
+* component[extent].valueQuantity.system = $ucum
+* component[extent].valueQuantity.code = #%
+* component[extent].valueQuantity.unit = "%"
+* component[extent].valueQuantity ^short = "Intragradular extent of tumor invasion in percentage"
 
 
 Instance: tumor-observable-example
@@ -68,7 +78,7 @@ InstanceOf: TumorObservableLtLab
 Title: "Tumor Observable Example"
 Usage: #example
 * language = #en
-* status = #available
+* status = #final
 * code = $sct#395531003 "Neoplasm observable (observable entity)"
 * subject = Reference(Patient/example-patient)
 * effectiveDateTime = "2025-01-10T09:15:00+02:00"
@@ -76,4 +86,9 @@ Usage: #example
 * specimen = Reference(Specimen/specimen-right-breast-example)
 * component[focality].valueCodeableConcept = $sct#399506006 "Multifocal tumor (finding)"
 * component[fociNr].valueQuantity.value = 3
-* component[fociNr].valueQuantity.unit = "count"
+* component[type].valueCodeableConcept = $sct#1187425009 "Carcinoma (morphologic abnormality)"
+* component[location].valueCodeableConcept = $sct#83094007 "Breast structure (body structure)"
+* component[noduleNr].valueQuantity.value = 2
+* component[noduleSite].valueCodeableConcept = $sct#83094007 "Breast structure (body structure)"
+* component[noduleSize].valueQuantity.value = 15
+* component[extent].valueQuantity.value = 33
