@@ -1,5 +1,5 @@
-Instance: specimen-aqequacy-observation-example
-InstanceOf: Observation
+Instance: specimen-adequacy-observation-example
+InstanceOf: SpecimenAdequacyLtLab
 Title: "Observation: Specimen Adequacy for Breast Tissue Specimen"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab"
