@@ -1,8 +1,7 @@
 Instance: specimen-right-breast-example
-InstanceOf: SpecimenEu
+InstanceOf: SpecimenLtLab
 Title: "Specimen: Right Breast Tissue"
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
 * language = #en
 * status = #available
 * type = $sct#122601001 "Specimen from breast obtained by biopsy"
@@ -18,12 +17,12 @@ Usage: #example
 * container.device.display = "Sterile container"
 * identifier.system = "http://hospital.lt/sid/specimen-number"
 * identifier.value = "barcode12345"
+* accessionIdentifier.value = "B26-6526"
 
 Instance: specimen-left-breast-example
-InstanceOf: SpecimenEu
+InstanceOf: SpecimenLtLab
 Title: "Specimen: Left Breast Tissue"
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab"
 * language = #en
 * status = #available
 * type = $sct#122601001 "Specimen from breast obtained by biopsy"
@@ -38,4 +37,18 @@ Usage: #example
 * container.specimenQuantity.value = 1
 * container.device.display = "Sterile container"
 * identifier.system = "http://hospital.lt/sid/specimen-number"
-* identifier.value = "barcode12346"
+* identifier.value = "barcode54321"
+* accessionIdentifier.value = "B26-6527"
+
+
+Instance: specimen-block-1-example
+InstanceOf: SpecimenBlockLtLab
+Title: "Specimen Block: #A1 from Left Breast"
+Usage: #example
+* language = #en
+* status = #available
+* accessionIdentifier.value = "A1"
+* parent = Reference(specimen-left-breast-example)
+* processing.method = $sct#702941008 "Paraffin embedding"
+* collection.quantity.value = 5
+* collection.quantity.unit = "slices"
