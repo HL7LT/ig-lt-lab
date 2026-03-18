@@ -1,7 +1,8 @@
-ValueSet: SampleExamination
-Id: sample-examination    
+ValueSet: SampleExaminationLtLab
+Id: sample-examination-lt-lab
 Title: "Sample Examination Methods"
 Description: "Microscopic or Microscopic examinations of the specimen."
+* ^url = $sample-examination-lt-lab-url
 * ^language = #en
 * ^status = #active
 * ^publisher = "HL7 Lithuania"

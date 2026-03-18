@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: lt.hl7.fhir.lab
 canonical: https://hl7.lt/fhir/lab
-name: LTLab
+name: LtLab
 title: Lithuanian Laboratory Implementation Guide
 description: Lithuanian Laboratory Implementation Guide
 status: draft # draft | active | retired | unknown
@@ -61,7 +61,7 @@ dependencies:
 
 parameters:
   special-url-base: https://hl7.lt/fhir
-  special-url: https://terminology.hl7.lt/fhir, http://hl7.org/fhir/us/vitals/StructureDefinition
+  special-url: https://tx.hl7.lt/fhir, https://terminology.hl7.lt/fhir, http://hl7.org/fhir/us/vitals/StructureDefinition
 
   excludettl: true
   shownav: true
@@ -189,6 +189,24 @@ groups:
     - StructureDefinition/creatinine-test-lab-lt
     - StructureDefinition/egfr-lab-lt
     - ValueSet/egfr-method-lab-lt
+  GroupD:
+    name: "Pathology"
+    description: "Pathology orders, reports, and related profiles"
+    resources:
+    - StructureDefinition/pathology-order-lt-lab
+    - StructureDefinition/pathology-report-lt-lab
+    - StructureDefinition/prostate-condition-lt-lab
+    - StructureDefinition/her2-receptor-status-observation-lt-lab
+  GroupE:
+    name: "Specimen"
+    description: "Specimen and specimen-related observations"
+    resources:
+    - StructureDefinition/specimen-lt-lab
+    - StructureDefinition/specimen-block-lt-lab
+    - StructureDefinition/specimen-adequacy-lt-lab
+    - StructureDefinition/specimen-measurement-lt-lab
+    - StructureDefinition/tumor-measurement-lt-lab
+    - StructureDefinition/tumor-observable-lt-lab
 
 
 

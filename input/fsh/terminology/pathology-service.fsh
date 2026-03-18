@@ -1,6 +1,8 @@
-ValueSet: PathologyService
+ValueSet: PathologyServiceLtLab
+Id: pathology-service-lt-lab
 Title: "Pathology Service Code"
 Description: "Codes for pathology services."
+* ^url = $pathology-service-lt-lab-url
 * ^language = #en
 * ^status = #active
 * ^publisher = "HL7 Lithuania"

@@ -1,7 +1,8 @@
-ValueSet: TumorFocality
-Id: tumor-focality
+ValueSet: TumorFocalityLtLab
+Id: tumor-focality-lt-lab
 Title: "Tumor Focality"
 Description: "Codes for tumor focality."
+* ^url = $tumor-focality-lt-lab-url
 * ^language = #en
 * ^status = #active
 * ^publisher = "HL7 Lithuania"

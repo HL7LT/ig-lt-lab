@@ -1,7 +1,8 @@
-ValueSet: TumorType
-Id: tumor-type
+ValueSet: TumorTypeLtLab
+Id: tumor-type-lt-lab
 Title: "Tumor Type"
 Description: "ValueSet for tumor types, coded from SNOMED CT."
+* ^url = $tumor-type-lt-lab-url
 * ^language = #en
 * ^status = #active
 * ^publisher = "HL7 Lithuania"

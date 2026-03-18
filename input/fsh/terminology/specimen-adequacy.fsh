@@ -1,6 +1,8 @@
-ValueSet: SpecimenAdequacy
+ValueSet: SpecimenAdequacyVSLtLab
+Id: specimen-adequacy-vs-lt-lab
 Title: "Specimen Adequacy Code"
 Description: "Codes for specimen adequacy."
+* ^url = $specimen-adequacy-vs-lt-lab-url
 * ^language = #en
 * ^status = #active
 * ^publisher = "HL7 Lithuania"

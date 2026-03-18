@@ -2,7 +2,7 @@ CodeSystem: UCUMLt
 Id: ucum-lt
 Title: "Lithuanian UCUM localisation"
 Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
-* ^url = "https://tx.hl7.lt/CodeSystem/ucum"
+* ^url = $ucum-lt-url
 * ^status = #active
 * ^content = #supplement
 * ^supplements = "http://unitsofmeasure.org"
