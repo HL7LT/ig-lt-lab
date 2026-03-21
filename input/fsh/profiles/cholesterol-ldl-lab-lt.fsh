@@ -18,10 +18,14 @@ Description: "Observation representing the patient's low-density lipoprotein (LD
 * effective[x] only dateTime
 * value[x] only Quantity
 * valueQuantity 1..1
-* valueQuantity.unit = "mmol/L"
+* valueQuantity.unit = "mg/dl"
 * valueQuantity.system = $ucum
-* valueQuantity.code = #mmol/L
+* valueQuantity.code = #mg/dL
 * interpretation from http://hl7.org/fhir/ValueSet/observation-interpretation (extensible)
 * interpretation ^short = "Interpretation of the LDL cholesterol result (e.g., Normal, High, Low)"
 * component ..0
-* referenceRange.high ^short = "< 3.0 mmol/L"
+* referenceRange.low ^short = ">= 100 mg/dL"
+* referenceRange.high ^short = "<= 190 mg/dL"
+
+// * valueQuantity.unit = "mmol/L"
+// * referenceRange.high ^short = "< 3.0 mmol/L"

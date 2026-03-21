@@ -18,7 +18,7 @@ Description: "Observation representing the patient's triglyceride concentration 
 * effective[x] only dateTime
 * value[x] only Quantity
 * valueQuantity 1..1
-* valueQuantity.unit = "mmol/L"
+* valueQuantity.unit = "mmol/l"
 * valueQuantity.system = $ucum
 * valueQuantity.code = #mmol/L
 * interpretation from http://hl7.org/fhir/ValueSet/observation-interpretation (extensible)
