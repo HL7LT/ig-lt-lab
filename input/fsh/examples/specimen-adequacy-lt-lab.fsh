@@ -15,4 +15,3 @@ Usage: #example
 * note.text = "The breast tissue specimen is deemed adequate for histopathological evaluation."
 * basedOn = Reference(ServiceRequest/servicerequest-pathology-order-example)
 * specimen = Reference(Specimen/specimen-right-breast-example)
-* derivedFrom = Reference(DiagnosticReport/diagnosticreport-pathology-report-example)

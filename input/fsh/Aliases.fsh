@@ -4,7 +4,7 @@ Alias: $icd-10-vs = http://hl7.org/fhir/ValueSet/icd-10
 Alias: $sct = http://snomed.info/sct
 Alias: $sct-vs = http://snomed.info/sct?fhir_vs
 Alias: $icd-o-3 = http://terminology.hl7.org/CodeSystem/icd-o-3
-Alias: $icd-o-3-vs = http://terminology.hl7.org/ValueSet/icd-o-3
+Alias: $icd-o-3-vs = https://tx.hl7.lt/fhir/ValueSet/icd-o-3
 
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $units-of-time = http://hl7.org/fhir/ValueSet/units-of-time

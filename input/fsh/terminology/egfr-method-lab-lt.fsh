@@ -1,8 +1,8 @@
 ValueSet: EGFRMethodLabLt
-Id: egfr-method-lab-lt
+Id: egfr-method
 Title: "eGFR"
 Description: "LOINC codes representing eGFR measurement methos calculated using CKD-EPI formulas (original and 2021 revision)."
-* ^url = $egfr-method-lab-lt-url
+* ^url = $egfr-method-url
 * ^language = #en
 * ^version = "1.0.0"
 * ^status = #active

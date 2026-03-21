@@ -40,7 +40,7 @@ Description: "Definition of the Observation for the Tumor Observable"
 * component[fociNr].valueQuantity.code = #count
 * component[location].code = $sct#399687005 "Anatomic location of primary malignant neoplasm (observable entity)"
 * component[location].value[x] only CodeableConcept
-* component[type].code = $sct#3396785008 "Histologic type of metastatic neoplasm (observable entity)"
+* component[type].code = $sct#396785008 "Histologic type of metastatic neoplasm (observable entity)"
 * component[type].valueCodeableConcept from TumorTypeLtLab (required)
 * component[noduleNr].code = $sct#405930005 "Number of tumor nodules (observable entity)"
 * component[noduleNr].valueQuantity.system = $ucum

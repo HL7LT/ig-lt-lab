@@ -13,12 +13,11 @@ Description: "This profile defines how to represent an pathology report."
 * ^jurisdiction = $m49.htm#150 "Europe"
 * ^copyright = "Used by permission of HL7 LT, all rights reserved Creative Commons License"
 * . ^short = "Pathology Report"
-* . ^definition = "Pathology Report composition."
 * identifier 1.. MS
 * status 1..1 MS
-* category = $sct#721966001 "Pathology report"
+* category = $loinc#11526-1 "Pathology study"
 * code 1..1 MS
-* code from $lab-specialty-eu-lab (preferred)
+* code from PathologyProcedureLtLab (required)
 * subject 1..1 MS
 * subject only Reference(PatientLt)
 * encounter only Reference(EncounterLt)
@@ -37,5 +36,7 @@ Description: "This profile defines how to represent an pathology report."
 * conclusionCode.coding contains
     icd10 1..1 MS and
     icdo3 0..1 MS
+* conclusionCode.coding[icd10].system = $icd-10 // Use the actual ICD-10 system URL
 * conclusionCode.coding[icd10] from $icd-10-vs (required)
+* conclusionCode.coding[icdo3].system = $icd-o-3 // Use the actual ICD-O-3 system URL
 * conclusionCode.coding[icdo3] from $icd-o-3-vs (required)

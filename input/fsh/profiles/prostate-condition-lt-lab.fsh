@@ -6,7 +6,7 @@ Description: "A profile on Condition for Prostate Cancer with staging for TNM an
 * ^url = $prostate-condition-lt-lab-url
 * code from $icd-10-vs (required)
 * stage MS
-* stage ^slicing.discriminator.type = #pattern
+* stage ^slicing.discriminator.type = #value
 * stage ^slicing.discriminator.path = "type"
 * stage ^slicing.rules = #open
 * stage ^slicing.description = "Slicing based on TNM stage components"

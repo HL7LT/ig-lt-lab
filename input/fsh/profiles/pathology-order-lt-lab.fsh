@@ -17,7 +17,7 @@ Description: "This profile defines how to represent an pathology orders."
 * identifier 1.. MS
 * category = $sct#721966001 "Pathology order"
 * code 1..1 MS
-* code from $lab-specialty-eu-lab (preferred)
+* code from PathologyProcedureLtLab (required)
 * subject 1..1 MS
 * subject only Reference(PatientLt)
 * occurrence[x] ..1 MS
@@ -32,3 +32,5 @@ Description: "This profile defines how to represent an pathology orders."
 * supportingInfo MS
 * reason MS
 * reason only CodeableReference(ConditionLt or ObservationLt or DiagnosticReportLt)
+* reason from $screening-programme-url (preferred)
+

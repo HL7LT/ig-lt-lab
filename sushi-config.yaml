@@ -24,7 +24,6 @@ dependencies:
   lt.hl7.fhir.base: 0.3.0
   lt.hl7.fhir.eu: 0.0.2
   hl7.fhir.eu.base-r5: 0.1.0
-  hl7.fhir.eu.extensions: 1.2.0
 
 #
 #
@@ -61,7 +60,29 @@ dependencies:
 
 parameters:
   special-url-base: https://hl7.lt/fhir
-  special-url: https://tx.hl7.lt/fhir, https://terminology.hl7.lt/fhir, http://hl7.org/fhir/us/vitals/StructureDefinition
+  special-url: 
+    - https://tx.hl7.lt/fhir
+    - https://tx.hl7.lt/fhir/CodeSystem/ucum
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-receptor-status
+    - https://tx.hl7.lt/fhir/ValueSet/her2-receptor-status
+    - https://tx.hl7.lt/fhir/ValueSet/cholesterol-ldl-method
+    - https://tx.hl7.lt/fhir/ValueSet/egfr-method
+    - https://tx.hl7.lt/fhir/ValueSet/pathology-procedure
+    - https://tx.hl7.lt/fhir/ValueSet/pathology-service
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-m
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-n
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-t
+    - https://tx.hl7.lt/fhir/ValueSet/sample-examination
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-adequacy
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-focality
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-type
+    - https://tx.hl7.lt/fhir/ValueSet/screening-programme
+    - http://terminology.hl7.org/ValueSet/icd-o-3
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
+
 
   excludettl: true
   shownav: true
@@ -175,7 +196,7 @@ groups:
     - StructureDefinition/triglycerides-lab-lt
     - StructureDefinition/lipidogram-lab-lt
     - StructureDefinition/glucose-venous-lab-lt
-    - ValueSet/cholesterol-ldl-method-lab-lt
+    - ValueSet/cholesterol-ldl-method
   GroupB:
     name: "Glycemic Control"
     description: "Glycemic Control observations and Diabetes Monitoring"
@@ -188,13 +209,15 @@ groups:
     - StructureDefinition/acr-lab-lt
     - StructureDefinition/creatinine-test-lab-lt
     - StructureDefinition/egfr-lab-lt
-    - ValueSet/egfr-method-lab-lt
+    - ValueSet/egfr-method
   GroupD:
     name: "Pathology"
     description: "Pathology orders, reports, and related profiles"
     resources:
     - StructureDefinition/pathology-order-lt-lab
+    - StructureDefinition/pathology-composition-lt-lab
     - StructureDefinition/pathology-report-lt-lab
+    - ValueSet/pathology-procedure
     - StructureDefinition/prostate-condition-lt-lab
     - StructureDefinition/her2-receptor-status-observation-lt-lab
   GroupE:

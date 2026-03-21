@@ -12,8 +12,8 @@ Usage: #example
 * component[focality].valueCodeableConcept = $sct#399506006 "Multifocal tumor (finding)"
 * component[fociNr].valueQuantity.value = 3
 * component[type].valueCodeableConcept = $sct#1187425009 "Carcinoma (morphologic abnormality)"
-* component[location].valueCodeableConcept = $sct#83094007 "Breast structure (body structure)"
+* component[location].valueCodeableConcept = $sct#76752008 "Breast structure (body structure)"
 * component[noduleNr].valueQuantity.value = 2
-* component[noduleSite].valueCodeableConcept = $sct#83094007 "Breast structure (body structure)"
+* component[noduleSite].valueCodeableConcept = $sct#76752008 "Breast structure (body structure)"
 * component[noduleSize].valueQuantity.value = 15
 * component[extent].valueQuantity.value = 33

@@ -6,14 +6,7 @@ Description: "Cancer morphology"
 * ^status = #draft
 * ^date = "2025-04-03T15:16:31+02:00"
 * ^publisher = "institutcancer"
-* ^contact[0].name = "institutcancer"
-* ^contact[=].telecom[0].system = #url
-* ^contact[=].telecom[=].value = "http://cancer.fr"
-* ^contact[=].telecom[+].system = #email
-* ^contact[=].telecom[=].value = "osiris@institutcancer.fr"
-* ^contact[+].name = "Aurélien JOBARD"
-* ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "osiris@institutcancer.fr"
+* ^experimental = false
 * ^url = $icd-o-3-vs
 * $icd-o-3#8000/0 "Neoplasm, benign"
 * $icd-o-3#8000/1 "Neoplasm, uncertain whether benign or malignant"

@@ -1,11 +1,12 @@
 CodeSystem: UCUMLt
-Id: ucum-lt
+Id: ucum
 Title: "Lithuanian UCUM localisation"
 Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
 * ^url = $ucum-lt-url
 * ^status = #active
+* ^experimental = false
 * ^content = #supplement
-* ^supplements = "http://unitsofmeasure.org"
+* ^supplements = $ucum
 
 * ^description = "Localized Lithuanian UCUM units described as display designation and alternative code as synonym"
 
@@ -275,14 +276,6 @@ Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
   * ^designation[=].value = "kopijos"
 
-* #ug/(24.h)-bad "Microgram per 24 hour"
-  * ^designation[+].language = #lt
-  * ^designation[=].value = "Mikrogramai per 24 val"
-  * ^designation[=].use = #display  
-  * ^designation[+].language = #lt
-  * ^designation[=].use = $sct#900000000000013009 "Synonym"
-  * ^designation[=].value = "µg/24h-bad"
-
 * #mmol/L "MilliMolesPerLiter"
   * ^designation[+].language = #lt
   * ^designation[=].value = "Milimoliai litre"
@@ -291,7 +284,7 @@ Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
   * ^designation[=].value = "mmol/l"
 
-* #mmol/mol{creat}-1 "Millimole per mole of creatinine"
+* #mmol/mol{creat}.1 "Millimole per mole of creatinine"
   * ^designation[+].language = #lt
   * ^designation[=].value = "Milimoliai molyje creatinino"
   * ^designation[=].use = #display  
@@ -365,13 +358,13 @@ Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
   * ^designation[=].value = "Ω/min"
 
-* #Ohm*min "Ohm times minute"
+* #Ohm.min "Ohm times minute"
   * ^designation[+].language = #lt
-  * ^designation[=].value = "Ω*min"
+  * ^designation[=].value = "Ω.min"
   * ^designation[=].use = #display  
   * ^designation[+].language = #lt
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
-  * ^designation[=].value = "Ω*min"
+  * ^designation[=].value = "Ω.min"
 
 * #{ARU} "Aspirin response unit"
   * ^designation[+].language = #lt
@@ -622,10 +615,10 @@ Description: "UCUM papildymas lietuvių kalba su alternatyviais kodais (alias)."
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
   * ^designation[=].value = "kU/l"
   
-* #k[arb'U]/L "KiloArbitraryUnitsPerLiter"
+* #[arb'U]/L "ArbitraryUnitsPerLiter"
   * ^designation[+].language = #lt
-  * ^designation[=].value = "Kilo Arbitrary Vienetai Litre"
+  * ^designation[=].value = "Arbitrary Vienetai Litre"
   * ^designation[=].use = #display
   * ^designation[+].language = #lt
   * ^designation[=].use = $sct#900000000000013009 "Synonym"
-  * ^designation[=].value = "k[arb'U]/l"
+  * ^designation[=].value = "[arb'U]/l"

@@ -1,10 +1,11 @@
 ValueSet: TumorTypeLtLab
-Id: tumor-type-lt-lab
+Id: tumor-type
 Title: "Tumor Type"
 Description: "ValueSet for tumor types, coded from SNOMED CT."
-* ^url = $tumor-type-lt-lab-url
+* ^url = $tumor-type-url
 * ^language = #en
 * ^status = #active
+* ^experimental = false
 * ^publisher = "HL7 Lithuania"
 * $sct#45410002	"Acinar cell carcinoma (morphologic abnormality)"
 * $sct#59367005	"Adenosquamous carcinoma (morphologic abnormality)"

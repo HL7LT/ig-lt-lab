@@ -11,7 +11,7 @@ Description: "Observation representing the patient's high-density lipoprotein (H
 * ^experimental = true
 * ^publisher = "HL7 Lithuania"
 * category = $observation-category#laboratory "Laboratory"
-* code = $loinc#2085-9 "Cholesterol in HDL [Moles/volume] in Serum or Plasma"
+* code = $loinc#2085-9 "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
 * subject 1..
 * subject only Reference(PatientLt)
 * effective[x] 1..

@@ -5,7 +5,7 @@ Title: "Observation: Cholesterol HDL (example)"
 Description: "Example observation showing a patient's HDL cholesterol level within normal range."
 * status = #final
 // * category = $observation-category#laboratory "Laboratory"
-* code = $loinc#2085-9 "Cholesterol in HDL [Moles/volume] in Serum or Plasma"
+// * code = $loinc#2085-9 "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
 * subject = Reference(patient-example)
 * effectiveDateTime = "2025-10-01T09:00:00Z"
 * valueQuantity.value = 55

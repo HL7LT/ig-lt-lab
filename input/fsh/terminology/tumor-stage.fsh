@@ -1,10 +1,11 @@
 ValueSet: ProstateTumorStageTLtLab
-Id: prostate-tumor-stage-t-lt-lab
+Id: prostate-tumor-stage-t
 Title: "Prostate Tumor Stage T"
 Description: "Codes for prostate tumor stages T."
-* ^url = $prostate-tumor-stage-t-lt-lab-url
+* ^url = $prostate-tumor-stage-t-url
 * ^language = #en
 * ^status = #active
+* ^experimental = false
 * ^publisher = "HL7 Lithuania"
 * $sct#1222604002 "cTX (AJCC)" //67101007 "TX category"
 * $sct#1228882005 "cT0 (AJCC)" //58790005 "T0 category"
@@ -13,24 +14,26 @@ Description: "Codes for prostate tumor stages T."
 * $sct#1229864001 "pT4 (AJCC)"  //384990000 "pT4: Invasion of bladder AND/OR rectum (prostate)"
 
 ValueSet: ProstateTumorStageNLtLab
-Id: prostate-tumor-stage-n-lt-lab
+Id: prostate-tumor-stage-n
 Title: "Prostate Tumor Stage N"
 Description: "Codes for prostate tumor stages N."
-* ^url = $prostate-tumor-stage-n-lt-lab-url
+* ^url = $prostate-tumor-stage-n-url
 * ^language = #en
 * ^status = #active
+* ^experimental = false
 * ^publisher = "HL7 Lithuania"
 * $sct#1229966003 "cNX (AJCC)" //79420006 "NX category"
 * $sct#1229967007 "cN0 (AJCC)" //62455006 "N0 category"
 * $sct#1229973008 "cN1 (AJCC)" //53623008 "N1 category"
 
 ValueSet: ProstateTumorStageMLtLab
-Id: prostate-tumor-stage-m-lt-lab
+Id: prostate-tumor-stage-m
 Title: "Prostate Tumor Stage M"
 Description: "Codes for prostate tumor stages M."
-* ^url = $prostate-tumor-stage-m-lt-lab-url
+* ^url = $prostate-tumor-stage-m-url
 * ^language = #en
 * ^status = #active
+* ^experimental = false
 * ^publisher = "HL7 Lithuania"
 * $sct#385432009 "Not applicable"
 * $sct#1229901006 "cM0 (AJCC)" //30893008 "M0 category"
