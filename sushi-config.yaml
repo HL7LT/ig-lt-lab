@@ -21,7 +21,8 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
-  lt.hl7.fhir.base: 0.3.0
+#  lt.hl7.fhir.base: 0.4.0
+  lt.hl7.fhir.base: current
   lt.hl7.fhir.eu: 0.0.2
   hl7.fhir.eu.base-r5: 0.1.0
 
@@ -79,9 +80,9 @@ parameters:
     - https://tx.hl7.lt/fhir/ValueSet/screening-programme
     - http://terminology.hl7.org/ValueSet/icd-o-3
     - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
-    - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
-    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
+# - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
+# - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
 
 
   excludettl: true
