@@ -9,6 +9,7 @@ Description: "A profile for paraffin-embedded tissue blocks derived from a paren
 * accessionIdentifier ..1 MS
 * accessionIdentifier ^short = "The lab-assigned block ID (e.g., A1, B2)"
 * accessionIdentifier.use = #secondary
+* subject only Reference($patient-lt-url or $EuPatientAnimalUrl)
 * parent 1..1 MS
 * parent only Reference(SpecimenLtLab)
 * parent ^short = "The parent specimen this block was cut from"
@@ -17,3 +18,4 @@ Description: "A profile for paraffin-embedded tissue blocks derived from a paren
 * processing.method ^short = "The method of block processing"
 * collection.quantity 0..1 MS
 * collection.quantity ^short = "The number of slices"
+* collection.collector only Reference($practitioner-role-lt-url or $practitioner-lt-url)

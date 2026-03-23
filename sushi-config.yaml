@@ -82,8 +82,10 @@ parameters:
     - https://hl7.lt/fhir/lab/ValueSet/icd-o-3
     - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab 
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-identifier
 # - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
-# - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
+
 
 
   excludettl: true

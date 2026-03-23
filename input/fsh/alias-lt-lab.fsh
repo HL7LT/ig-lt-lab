@@ -23,6 +23,9 @@ Alias: $triglycerides-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/t
 Alias: $tumor-measurement-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-measurement-lt-lab
 Alias: $tumor-observable-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-observable-lt-lab
 
+// Extensions
+Alias: $specimen-received-by-url = https://hl7.lt/fhir/lab/StructureDefinition/specimen-received-by
+
 // Terminology URLs: https://tx.hl7.lt/fhir/ (path without -lt-lab suffix)
 Alias: $cholesterol-ldl-method-url = https://tx.hl7.lt/fhir/ValueSet/cholesterol-ldl-method
 Alias: $egfr-method-url = https://tx.hl7.lt/fhir/ValueSet/egfr-method
@@ -39,3 +42,6 @@ Alias: $prostate-tumor-stage-n-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tu
 Alias: $prostate-tumor-stage-m-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-m
 Alias: $screening-programme-url = https://tx.hl7.lt/fhir/ValueSet/screening-programme
 Alias: $ucum-lt-url = https://tx.hl7.lt/fhir/CodeSystem/ucum
+
+Alias: $speciment-type-vs-url = http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
+Alias: $speciment-identifier-vs-url = https://tx.hl7.lt/fhir/ValueSet/specimen-identifier
