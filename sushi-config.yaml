@@ -84,6 +84,21 @@ parameters:
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab 
     - https://tx.hl7.lt/fhir/ValueSet/specimen-identifier
+    - https://tx.hl7.lt/fhir/CodeSystem/tumor-component-lt-lab
+    - https://tx.hl7.lt/fhir/ValueSet/periprostatic-fat-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/seminal-vesicle-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/perineural-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/lymphovascular-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-volume-methodology
+    - https://tx.hl7.lt/fhir/CodeSystem/ihc-expression-level
+    - https://tx.hl7.lt/fhir/ValueSet/ihc-expression-level
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-ihc-score
+    - https://tx.hl7.lt/fhir/ValueSet/her2-ihc-score
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-fish-result
+    - https://tx.hl7.lt/fhir/ValueSet/her2-fish-result
+    - https://tx.hl7.lt/fhir/ValueSet/histological-grading
+    - https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
+    - https://tx.hl7.lt/fhir/ValueSet/plvi-classification
 # - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
 
 

@@ -23,6 +23,10 @@ Alias: $triglycerides-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/t
 Alias: $tumor-measurement-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-measurement-lt-lab
 Alias: $tumor-observable-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-observable-lt-lab
 Alias: $biopsy-procedure-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/biopsy-procedure-lt-lab
+Alias: $estrogen-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/estrogen-receptor-status-observation-lt-lab
+Alias: $progesterone-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/progesterone-receptor-status-observation-lt-lab
+Alias: $ki67-proliferation-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/ki67-proliferation-observation-lt-lab
+Alias: $her2-fish-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/her2-fish-observation-lt-lab
 
 // Extensions
 Alias: $specimen-received-by-url = https://hl7.lt/fhir/lab/StructureDefinition/specimen-received-by
@@ -43,6 +47,24 @@ Alias: $prostate-tumor-stage-n-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tu
 Alias: $prostate-tumor-stage-m-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-m
 Alias: $screening-programme-url = https://tx.hl7.lt/fhir/ValueSet/screening-programme
 Alias: $ucum-lt-url = https://tx.hl7.lt/fhir/CodeSystem/ucum
+
+// Tumor component CodeSystem
+Alias: $tumor-component-lt-lab-cs-url = https://tx.hl7.lt/fhir/CodeSystem/tumor-component-lt-lab
+// Pathological invasion ValueSets
+Alias: $periprostatic-fat-invasion-vs-url = https://tx.hl7.lt/fhir/ValueSet/periprostatic-fat-invasion
+Alias: $seminal-vesicle-invasion-vs-url = https://tx.hl7.lt/fhir/ValueSet/seminal-vesicle-invasion
+Alias: $perineural-invasion-vs-url = https://tx.hl7.lt/fhir/ValueSet/perineural-invasion
+Alias: $lymphovascular-invasion-vs-url = https://tx.hl7.lt/fhir/ValueSet/lymphovascular-invasion
+Alias: $tumor-volume-methodology-vs-url = https://tx.hl7.lt/fhir/ValueSet/tumor-volume-methodology
+Alias: $ihc-expression-level-cs-url = https://tx.hl7.lt/fhir/CodeSystem/ihc-expression-level
+Alias: $ihc-expression-level-vs-url = https://tx.hl7.lt/fhir/ValueSet/ihc-expression-level
+Alias: $her2-ihc-score-cs-url = https://tx.hl7.lt/fhir/CodeSystem/her2-ihc-score
+Alias: $her2-ihc-score-vs-url = https://tx.hl7.lt/fhir/ValueSet/her2-ihc-score
+Alias: $her2-fish-result-cs-url = https://tx.hl7.lt/fhir/CodeSystem/her2-fish-result
+Alias: $her2-fish-result-vs-url = https://tx.hl7.lt/fhir/ValueSet/her2-fish-result
+Alias: $histological-grading-vs-url = https://tx.hl7.lt/fhir/ValueSet/histological-grading
+Alias: $plvi-classification-cs-url = https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
+Alias: $plvi-classification-vs-url = https://tx.hl7.lt/fhir/ValueSet/plvi-classification
 
 Alias: $speciment-type-vs-url = http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
 Alias: $speciment-identifier-vs-url = https://tx.hl7.lt/fhir/ValueSet/specimen-identifier
