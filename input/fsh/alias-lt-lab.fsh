@@ -22,6 +22,7 @@ Alias: $total-cholesterol-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefiniti
 Alias: $triglycerides-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/triglycerides-lab-lt
 Alias: $tumor-measurement-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-measurement-lt-lab
 Alias: $tumor-observable-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/tumor-observable-lt-lab
+Alias: $biopsy-procedure-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/biopsy-procedure-lt-lab
 
 // Extensions
 Alias: $specimen-received-by-url = https://hl7.lt/fhir/lab/StructureDefinition/specimen-received-by

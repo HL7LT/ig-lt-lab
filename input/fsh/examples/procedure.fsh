@@ -1,5 +1,5 @@
 Instance: procedure-breast-biopsy-example
-InstanceOf: Procedure
+InstanceOf: BiopsyProcedureLtLab
 Usage: #example
 Title: "Procedure: Breast Biopsy (example)"
 Description: "Example of a breast biopsy procedure performed for histopathology."

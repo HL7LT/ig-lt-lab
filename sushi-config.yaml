@@ -224,6 +224,7 @@ groups:
     - ValueSet/pathology-procedure
     - StructureDefinition/prostate-condition-lt-lab
     - StructureDefinition/her2-receptor-status-observation-lt-lab
+    - StructureDefinition/biopsy-procedure-lt-lab
   GroupE:
     name: "Specimen"
     description: "Specimen and specimen-related observations"
