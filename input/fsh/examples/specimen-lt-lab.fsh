@@ -12,6 +12,8 @@ Usage: #example
 * collection.quantity.unit = "mg"
 * collection.bodySite = $sct#73056007 "Right breast structure (body structure)"
 * request = Reference(ServiceRequest/servicerequest-pathology-order-example)
+* processing.additive = Reference(Substance/substance-formalin-example)
+* processing.method = $sct#127790008 "Tissue fixation (procedure)"
 * container.extension[SpecimenContainerType].valueCodeableConcept = $sct#700855008 "Tissue/fluid collection bag, sterile"
 * container.specimenQuantity.value = 1
 * container.device.display = "Sterile container"

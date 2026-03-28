@@ -79,7 +79,7 @@ parameters:
     - https://tx.hl7.lt/fhir/ValueSet/tumor-type
     - https://tx.hl7.lt/fhir/ValueSet/screening-programme
     - http://terminology.hl7.org/ValueSet/icd-o-3
-    - https://hl7.lt/fhir/lab/ValueSet/icd-o-3
+    - https://tx.hl7.lt/fhir/ValueSet/icd-o-3
     - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
     - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab 
@@ -99,6 +99,7 @@ parameters:
     - https://tx.hl7.lt/fhir/ValueSet/histological-grading
     - https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
     - https://tx.hl7.lt/fhir/ValueSet/plvi-classification
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-additive
 # - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
 
 
@@ -246,6 +247,7 @@ groups:
     resources:
     - StructureDefinition/specimen-lt-lab
     - StructureDefinition/specimen-block-lt-lab
+    - StructureDefinition/substance-additive-lt-lab
     - StructureDefinition/specimen-adequacy-lt-lab
     - StructureDefinition/specimen-measurement-lt-lab
     - StructureDefinition/tumor-measurement-lt-lab

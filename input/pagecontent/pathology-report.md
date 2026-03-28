@@ -71,7 +71,7 @@ In the context of the pathology documentation, the final document (Composition) 
 
 The **TNM system** is the international language used to describe the extent of cancer.
 
-For **prostate cancer** in this guide, pathological T, N, and M together with tumour morphology may be recorded in one place as a [prostate cancer diagnosis and stage](StructureDefinition-prostate-condition-lt-lab.html). The allowed codes for each category are listed in the value sets for [T category](ValueSet-prostate-tumor-stage-t-lt-lab.html), [N category](ValueSet-prostate-tumor-stage-n-lt-lab.html), and [M category](ValueSet-prostate-tumor-stage-m-lt-lab.html).
+For **prostate cancer** in this guide, pathological T, N, and M together with tumour morphology may be recorded in one place as a [prostate cancer diagnosis and stage](StructureDefinition-prostate-condition-lt-lab.html). The allowed codes for each category are listed in the value sets for [T category](ValueSet-prostate-tumor-stage-t.html), [N category](ValueSet-prostate-tumor-stage-n.html), and [M category](ValueSet-prostate-tumor-stage-m.html).
 
 - **T (Tumor):** Local extent (T1-T2: Localized; T3-T4: Advanced).
 - **N (Nodes):** Regional lymph node involvement (N0 vs N1).

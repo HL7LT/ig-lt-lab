@@ -19,7 +19,7 @@ Description: "Immunohistochemical expression level classification for receptor s
 
 ValueSet: IhcExpressionLevelVS
 Id: ihc-expression-level
-Title: "IHC Expression Level"
+Title: "IHC Expression Level (VS)"
 Description: "Immunohistochemical expression level for receptor status (negative, weak, moderate, strong)."
 * ^url = $ihc-expression-level-vs-url
 * ^status = #draft

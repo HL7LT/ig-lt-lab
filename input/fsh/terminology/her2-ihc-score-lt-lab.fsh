@@ -19,7 +19,7 @@ Description: "HER2 immunohistochemical scoring system (0+ to 3+)."
 
 ValueSet: Her2IhcScoreVS
 Id: her2-ihc-score
-Title: "HER2 IHC Score"
+Title: "HER2 IHC Score (VS)"
 Description: "HER2 immunohistochemical scoring system (0+ to 3+)."
 * ^url = $her2-ihc-score-vs-url
 * ^status = #draft

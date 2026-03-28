@@ -31,7 +31,7 @@ Description: "Immunohistochemical progesterone receptor (PR) status observation 
 // Percentage of positive nuclei
 * component contains percentage 0..1
 * component[percentage] ^short = "Percentage of positive tumor cell nuclei"
-* component[percentage].code = $loinc#85312-7 "Progesterone receptor fluorescence intensity [Type] in Breast cancer specimen by Immune stain"
+* component[percentage].code = $loinc#85312-7 "Extent of inferior margin carcinoma involvement in Breast cancer specimen Qualitative by Light microscopy"
 * component[percentage].value[x] 1..1
 * component[percentage].value[x] only Quantity
 * component[percentage].valueQuantity.system = $ucum

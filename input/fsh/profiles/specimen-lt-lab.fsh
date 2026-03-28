@@ -38,6 +38,7 @@ Description: "This profile defines how to represent Specimens in HL7 FHIR for th
 * collection.collector only Reference($practitioner-role-lt-url or $practitioner-lt-url)
 * collection.collector ^short = "Ėminį paėmęs specialistas / Who collected the specimen"
 * collection.quantity MS
+* processing.additive only Reference(SubstanceAdditiveLtLab)
 * note MS
 * note ^short = "Pastabos / Comments"
 

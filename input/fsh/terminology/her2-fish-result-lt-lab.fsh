@@ -18,7 +18,7 @@ Description: "Classification of HER2 gene amplification results from FISH, CISH,
 
 ValueSet: Her2FishResultVS
 Id: her2-fish-result
-Title: "HER2 FISH/CISH/SISH Result Classification"
+Title: "HER2 FISH/CISH/SISH Result Classification (VS)"
 Description: "Classification of HER2 gene amplification results."
 * ^url = $her2-fish-result-vs-url
 * ^status = #draft

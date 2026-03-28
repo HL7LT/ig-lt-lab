@@ -23,7 +23,7 @@ Description: "Peritumoral lymphovascular invasion (pLVI) 6-level classification 
 
 ValueSet: PlviClassificationVS
 Id: plvi-classification
-Title: "pLVI Classification"
+Title: "pLVI Classification (VS)"
 Description: "Peritumoral lymphovascular invasion (pLVI) 6-level classification."
 * ^url = $plvi-classification-vs-url
 * ^status = #draft

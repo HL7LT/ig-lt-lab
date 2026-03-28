@@ -26,7 +26,7 @@ Description: "HER2 gene amplification molecular test observation (FISH, CISH, or
 // HER2 average
 * component contains her2-average 0..1
 * component[her2-average] ^short = "HER2 average signal count"
-* component[her2-average].code = $loinc#85318-4 "ERBB2 gene copy number/nucleus [#] in Breast cancer specimen by FISH"
+* component[her2-average].code = $loinc#85318-4 "ERBB2 gene duplication [Presence] in Breast cancer specimen by FISH"
 * component[her2-average].value[x] 1..1
 * component[her2-average].value[x] only Quantity
 * component[her2-average].valueQuantity.system = $ucum
@@ -35,7 +35,7 @@ Description: "HER2 gene amplification molecular test observation (FISH, CISH, or
 // CEP17 average
 * component contains cep17-average 0..1
 * component[cep17-average] ^short = "CEP17 average signal count"
-* component[cep17-average].code = $loinc#85319-2 "CEP17 copy number/nucleus [#] in Breast cancer specimen by FISH"
+* component[cep17-average].code = $loinc#85319-2 "HER2 [Presence] in Breast cancer specimen by Immune stain"
 * component[cep17-average].value[x] 1..1
 * component[cep17-average].value[x] only Quantity
 * component[cep17-average].valueQuantity.system = $ucum
@@ -44,7 +44,7 @@ Description: "HER2 gene amplification molecular test observation (FISH, CISH, or
 // HER2/CEP17 ratio
 * component contains her2-cep17-ratio 0..1
 * component[her2-cep17-ratio] ^short = "HER2/CEP17 ratio"
-* component[her2-cep17-ratio].code = $loinc#49683-6 "ERBB2/Centromere 17 [Ratio] in Tissue by FISH"
+* component[her2-cep17-ratio].code = $loinc#49683-6 "ERBB2 gene copy number/Chromosome 17 copy number in Tissue by FISH"
 * component[her2-cep17-ratio].value[x] 1..1
 * component[her2-cep17-ratio].value[x] only Quantity
 * component[her2-cep17-ratio].valueQuantity.system = $ucum
@@ -53,7 +53,7 @@ Description: "HER2 gene amplification molecular test observation (FISH, CISH, or
 // Result classification
 * component contains result-classification 0..1
 * component[result-classification] ^short = "Amplification result classification"
-* component[result-classification].code = $loinc#85320-0 "ERBB2 gene duplication [Interpretation] in Breast cancer specimen by FISH"
+* component[result-classification].code = $loinc#85320-0 "Foci [Type] in Breast cancer specimen by Light microscopy"
 * component[result-classification].value[x] 1..1
 * component[result-classification].value[x] only CodeableConcept
 * component[result-classification].valueCodeableConcept from Her2FishResultVS (required)

@@ -27,6 +27,7 @@ Alias: $estrogen-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/la
 Alias: $progesterone-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/progesterone-receptor-status-observation-lt-lab
 Alias: $ki67-proliferation-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/ki67-proliferation-observation-lt-lab
 Alias: $her2-fish-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/her2-fish-observation-lt-lab
+Alias: $substance-additive-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/substance-additive-lt-lab
 
 // Extensions
 Alias: $specimen-received-by-url = https://hl7.lt/fhir/lab/StructureDefinition/specimen-received-by
@@ -65,6 +66,7 @@ Alias: $her2-fish-result-vs-url = https://tx.hl7.lt/fhir/ValueSet/her2-fish-resu
 Alias: $histological-grading-vs-url = https://tx.hl7.lt/fhir/ValueSet/histological-grading
 Alias: $plvi-classification-cs-url = https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
 Alias: $plvi-classification-vs-url = https://tx.hl7.lt/fhir/ValueSet/plvi-classification
+Alias: $specimen-additive-vs-url = https://tx.hl7.lt/fhir/ValueSet/specimen-additive
 
 Alias: $speciment-type-vs-url = http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
 Alias: $speciment-identifier-vs-url = https://tx.hl7.lt/fhir/ValueSet/specimen-identifier

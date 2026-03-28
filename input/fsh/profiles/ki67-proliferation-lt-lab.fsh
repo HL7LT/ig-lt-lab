@@ -7,7 +7,7 @@ Description: "Ki-67 proliferation index observation expressed as a percentage of
 * ^status = #draft
 * ^experimental = true
 * ^publisher = "HL7 Lithuania"
-* code = $loinc#29593-1 "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain"
+* code = $loinc#29593-1 "Cells.Ki-67 nuclear Ag/cells in Tissue by Immune stain"
 * subject 1..
 * subject only Reference(PatientLt)
 * effective[x] 1..
