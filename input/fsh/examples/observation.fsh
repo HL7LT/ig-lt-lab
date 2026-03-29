@@ -1,5 +1,5 @@
 Instance: obs-gram-stain
-InstanceOf: Observation
+InstanceOf: ObservationLt
 Title: "Observation: Gram Stain (example)"
 Usage: #example
 * status = #final

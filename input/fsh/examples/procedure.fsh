@@ -17,7 +17,7 @@ Description: "Example of a breast biopsy procedure performed for histopathology.
 * note.text = "Breast biopsy performed for suspected adenocarcinoma. Specimen sent for histopathology and immunohistochemistry."
 
 Instance: procedure-histology-example
-InstanceOf: Procedure
+InstanceOf: ProcedureLt
 Usage: #example
 Title: "Procedure: Histology (example)"
 Description: "Example of a histology procedure performed during pathology evaluation."
@@ -25,7 +25,7 @@ Description: "Example of a histology procedure performed during pathology evalua
 * status = #completed
 * category = $sct#108252007 "Laboratory procedure (procedure)"
 * code = $sct#714797009 "Histologic test (procedure)"
-* subject = Reference(patient-example)
+* subject = Reference(Patient/patient-example)
 * occurrenceDateTime = "2025-01-10T15:20:00+02:00"
-* performer.actor = Reference(practitioner-example)
+* performer.actor = Reference(Practitioner/practitioner-example)
 * bodySite = $sct#76752008 "Breast"

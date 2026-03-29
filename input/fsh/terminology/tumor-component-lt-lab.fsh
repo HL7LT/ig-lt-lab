@@ -17,7 +17,6 @@ Description: "Local codes for TumorObservableLtLab component slicing. Used until
 // Pathological invasion findings
 * #periprostatic-fat-invasion "Periprostatic fat invasion finding"
 * #seminal-vesicle-invasion "Seminal vesicle invasion finding"
-* #lymphovascular-invasion "Lymphatic and/or vascular tumor invasion"
 * #perineural-invasion "Perineural invasion finding"
 // Tumor characterization
 * #tumor-microfocus "Tumor microfocus status"

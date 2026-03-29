@@ -13,7 +13,7 @@ Thumbs.db
 /translations/*
 .claude/settings.local.json
 
-Requirements-fromNarrative.json
-
 # Cursor IDE files
+CLAUDE.md
 .cursor/
+Requirements-fromNarrative.json

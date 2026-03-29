@@ -110,7 +110,7 @@ Description: "Definition of the Observation for the Tumor Observable"
 * component[seminalVesicleInvasion].value[x] only CodeableConcept
 * component[seminalVesicleInvasion].valueCodeableConcept from SeminalVesicleInvasionVS (required)
 * component[seminalVesicleInvasion] ^short = "Tumor infiltration in seminal vesicles / ejaculatory duct"
-* component[lymphovascularInvasion].code = TumorComponentLtLab#lymphovascular-invasion "Lymphatic and/or vascular tumor invasion"
+* component[lymphovascularInvasion].code = $sct#371513001 "Presence of direct invasion by primary malignant neoplasm to lymphatic vessel and/or small blood vessel (observable entity)"
 * component[lymphovascularInvasion].value[x] 1..1
 * component[lymphovascularInvasion].value[x] only CodeableConcept
 * component[lymphovascularInvasion].valueCodeableConcept from LymphovascularInvasionVS (required)
