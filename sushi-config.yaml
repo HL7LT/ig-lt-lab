@@ -100,6 +100,8 @@ parameters:
     - https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
     - https://tx.hl7.lt/fhir/ValueSet/plvi-classification
     - https://tx.hl7.lt/fhir/ValueSet/specimen-additive
+    - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-t
+    - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-n
 # - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
 
 

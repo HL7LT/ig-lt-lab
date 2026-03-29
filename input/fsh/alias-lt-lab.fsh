@@ -66,6 +66,8 @@ Alias: $her2-fish-result-vs-url = https://tx.hl7.lt/fhir/ValueSet/her2-fish-resu
 Alias: $histological-grading-vs-url = https://tx.hl7.lt/fhir/ValueSet/histological-grading
 Alias: $plvi-classification-cs-url = https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
 Alias: $plvi-classification-vs-url = https://tx.hl7.lt/fhir/ValueSet/plvi-classification
+Alias: $cervical-tumor-stage-t-url = https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-t
+Alias: $cervical-tumor-stage-n-url = https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-n
 Alias: $specimen-additive-vs-url = https://tx.hl7.lt/fhir/ValueSet/specimen-additive
 
 Alias: $speciment-type-vs-url = http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
