@@ -27,6 +27,7 @@ Alias: $estrogen-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/la
 Alias: $progesterone-receptor-status-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/progesterone-receptor-status-observation-lt-lab
 Alias: $ki67-proliferation-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/ki67-proliferation-observation-lt-lab
 Alias: $her2-fish-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/her2-fish-observation-lt-lab
+Alias: $radiation-dose-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/radiation-dose-lt-lab
 Alias: $substance-additive-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/substance-additive-lt-lab
 
 // Extensions

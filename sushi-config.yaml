@@ -102,6 +102,10 @@ parameters:
     - https://tx.hl7.lt/fhir/ValueSet/specimen-additive
     - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-t
     - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-n
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ObservationRadiationDoseEuImaging
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-effective-dose-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-dose-length-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-gray-square-units
 # - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
 
 
@@ -246,6 +250,7 @@ groups:
     - StructureDefinition/prostate-condition-lt-lab
     - StructureDefinition/her2-receptor-status-observation-lt-lab
     - StructureDefinition/biopsy-procedure-lt-lab
+    - StructureDefinition/radiation-dose-lt-lab
   GroupE:
     name: "Specimen"
     description: "Specimen and specimen-related observations"

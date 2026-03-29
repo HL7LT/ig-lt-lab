@@ -87,17 +87,6 @@ Alias: $valueset-supplement = http://hl7.org/fhir/StructureDefinition/valueset-s
 Alias: $ucum-vitalsignsrate = http://hl7.org/fhir/ValueSet/ucum-vitalsignsrate
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 
-
-// LtBase
-Alias: $lt-patient = https://hl7.lt/fhir/base/StructureDefinition/lt-patient
-Alias: $lt-practitioner = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner
-Alias: $lt-practitioner-role = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role
-Alias: $lt-organization = https://hl7.lt/fhir/base/StructureDefinition/lt-organization
-Alias: $lt-encounter = https://hl7.lt/fhir/base/StructureDefinition/lt-encounter
-Alias: $lt-condition = https://hl7.lt/fhir/base/StructureDefinition/lt-condition
-Alias: $lt-diagnostic-report = https://hl7.lt/fhir/base/StructureDefinition/lt-diagnostic-report
-Alias: $lt-observation = https://hl7.lt/fhir/base/StructureDefinition/lt-observation
-
 // Lab
 Alias: $lab-specialty-eu-lab = http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
