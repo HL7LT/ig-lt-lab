@@ -134,9 +134,12 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Pathology: 
+  Pathology:
     Workflow: pathology-workflow.html
     Report: pathology-report.html
+  Profiles: profiles.html
+  Terminology: terminology.html
+  Examples: examples.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
