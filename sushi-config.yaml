@@ -78,6 +78,9 @@ parameters:
     - https://tx.hl7.lt/fhir/ValueSet/tumor-focality
     - https://tx.hl7.lt/fhir/ValueSet/tumor-type
     - https://tx.hl7.lt/fhir/ValueSet/screening-programme
+    - https://tx.hl7.lt/fhir/ValueSet/lipoprotein-a-method
+    - https://tx.hl7.lt/fhir/ValueSet/ast-method
+    - https://tx.hl7.lt/fhir/ValueSet/alt-method
     - http://terminology.hl7.org/ValueSet/icd-o-3
     - https://tx.hl7.lt/fhir/ValueSet/icd-o-3
     - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
@@ -226,6 +229,23 @@ groups:
     - StructureDefinition/lipidogram-lab-lt
     - StructureDefinition/glucose-venous-lab-lt
     - ValueSet/cholesterol-ldl-method
+    - StructureDefinition/apolipoprotein-b-lab-lt
+    - StructureDefinition/lipoprotein-a-lab-lt
+    - ValueSet/lipoprotein-a-method
+    - StructureDefinition/hs-crp-lab-lt
+  GroupF:
+    name: "Liver Function"
+    description: "Liver function enzyme observations"
+    resources:
+    - StructureDefinition/ast-lab-lt
+    - StructureDefinition/alt-lab-lt
+    - ValueSet/ast-method
+    - ValueSet/alt-method
+  GroupG:
+    name: "Electrolytes"
+    description: "Electrolyte observations"
+    resources:
+    - StructureDefinition/potassium-lab-lt
   GroupB:
     name: "Glycemic Control"
     description: "Glycemic Control observations and Diabetes Monitoring"

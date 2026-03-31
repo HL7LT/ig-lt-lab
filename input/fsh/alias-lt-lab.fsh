@@ -29,6 +29,12 @@ Alias: $ki67-proliferation-observation-lt-lab-url = https://hl7.lt/fhir/lab/Stru
 Alias: $her2-fish-observation-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/her2-fish-observation-lt-lab
 Alias: $radiation-dose-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/radiation-dose-lt-lab
 Alias: $substance-additive-lt-lab-url = https://hl7.lt/fhir/lab/StructureDefinition/substance-additive-lt-lab
+Alias: $apolipoprotein-b-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/apolipoprotein-b-lab-lt
+Alias: $lipoprotein-a-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/lipoprotein-a-lab-lt
+Alias: $potassium-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/potassium-lab-lt
+Alias: $ast-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/ast-lab-lt
+Alias: $alt-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/alt-lab-lt
+Alias: $hs-crp-lab-lt-url = https://hl7.lt/fhir/lab/StructureDefinition/hs-crp-lab-lt
 
 // Extensions
 Alias: $specimen-received-by-url = https://hl7.lt/fhir/lab/StructureDefinition/specimen-received-by
@@ -48,6 +54,9 @@ Alias: $prostate-tumor-stage-t-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tu
 Alias: $prostate-tumor-stage-n-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-n
 Alias: $prostate-tumor-stage-m-url = https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-m
 Alias: $screening-programme-url = https://tx.hl7.lt/fhir/ValueSet/screening-programme
+Alias: $lipoprotein-a-method-vs-url = https://tx.hl7.lt/fhir/ValueSet/lipoprotein-a-method
+Alias: $ast-method-vs-url = https://tx.hl7.lt/fhir/ValueSet/ast-method
+Alias: $alt-method-vs-url = https://tx.hl7.lt/fhir/ValueSet/alt-method
 Alias: $ucum-lt-url = https://tx.hl7.lt/fhir/CodeSystem/ucum
 
 // Tumor component CodeSystem
