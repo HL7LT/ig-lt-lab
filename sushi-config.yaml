@@ -23,7 +23,7 @@ publisher:
 dependencies:
 #  lt.hl7.fhir.base: 0.4.0
   lt.hl7.fhir.base: current
-  lt.hl7.fhir.eu: 0.0.2
+  lt.hl7.fhir.eu: current
   hl7.fhir.eu.base-r5: 0.1.0
 
 #
