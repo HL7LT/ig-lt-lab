@@ -18,8 +18,8 @@ Usage: #example
 // If Report include reference to the Composition then all Observations
 // should be included into the report also, else dgr-1 error will be generated. 
 * result[0] = Reference(Observation/observation-specimen-adequacy-example)
-* result[+] = Reference(Observation/observation-estrogen-status)
-* result[+] = Reference(Observation/observation-progesterone-status)
+* result[+] = Reference(Observation/observation-estrogen-receptor-status-example)
+* result[+] = Reference(Observation/observation-progesterone-receptor-status-example)
 * result[+] = Reference(Observation/observation-her2-receptor-status-example)
 * result[+] = Reference(Observation/observation-specimen-measurement-example)
 * result[+] = Reference(Observation/observation-tumor-observable-example)

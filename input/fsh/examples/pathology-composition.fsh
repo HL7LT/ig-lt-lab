@@ -93,12 +93,12 @@ Usage: #example
 * section[microscopic].section[2].title = "Oestrogen receptor (ER) status"
 * section[microscopic].section[2].text.status = #generated
 * section[microscopic].section[2].text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p>Immunohistochemical assessment of oestrogen receptor expression in tissue.</p></div>"""
-* section[microscopic].section[2].entry[0] = Reference(Observation/observation-estrogen-status)
+* section[microscopic].section[2].entry[0] = Reference(Observation/observation-estrogen-receptor-status-example)
 
 * section[microscopic].section[3].title = "Progesterone receptor (PR) status"
 * section[microscopic].section[3].text.status = #generated
 * section[microscopic].section[3].text.div = """<div xmlns="http://www.w3.org/1999/xhtml"><p>Immunohistochemical assessment of progesterone receptor expression in tissue.</p></div>"""
-* section[microscopic].section[3].entry[0] = Reference(Observation/observation-progesterone-status)
+* section[microscopic].section[3].entry[0] = Reference(Observation/observation-progesterone-receptor-status-example)
 
 * section[microscopic].section[4].title = "HER2 receptor status"
 * section[microscopic].section[4].text.status = #generated
