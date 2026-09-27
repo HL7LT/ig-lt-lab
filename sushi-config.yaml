@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: lt.hl7.fhir.lab
 canonical: https://hl7.lt/fhir/lab
-name: LTLab
+name: LtLab
 title: Lithuanian Laboratory Implementation Guide
 description: Lithuanian Laboratory Implementation Guide
 status: draft # draft | active | retired | unknown
@@ -21,21 +21,11 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
+#  lt.hl7.fhir.base: 0.4.0
+  lt.hl7.fhir.base: current
+  lt.hl7.fhir.eu: current
   hl7.fhir.eu.base-r5: 0.1.0
-  lt.hl7.fhir.base: 0.2.0
-  hl7.fhir.eu.extensions: 1.2.0
-#  hl7.fhir.uv.ips.r5: 4.0.0  #FHIR IPS R5 base
-#   fhir.base.template: 0.8.1
-#   # while we don't strictly needs this, this helps resolve the DICOM supplement correctly until tx.fhir.org can do this
-#   fhir.dicom:
-#     id: fhir_dicom
-#     uri: http://fhir.org/packages/fhir.dicom/ImplementationGuide/fhir.dicom
-#     version: 2025.2.20250411
 
-# the following are for offline use only
-#  hl7.fhir.uv.tools.r5: 0.5.0
-#  hl7.terminology.r5: 6.4.0
-#  hl7.fhir.uv.extensions.r5: 5.2.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -71,7 +61,57 @@ dependencies:
 
 parameters:
   special-url-base: https://hl7.lt/fhir
-  special-url: https://terminology.hl7.lt/fhir, http://hl7.org/fhir/us/vitals/StructureDefinition
+  special-url: 
+    - https://tx.hl7.lt/fhir
+    - https://tx.hl7.lt/fhir/CodeSystem/ucum
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-receptor-status
+    - https://tx.hl7.lt/fhir/ValueSet/her2-receptor-status
+    - https://tx.hl7.lt/fhir/ValueSet/cholesterol-ldl-method
+    - https://tx.hl7.lt/fhir/ValueSet/egfr-method
+    - https://tx.hl7.lt/fhir/ValueSet/pathology-procedure
+    - https://tx.hl7.lt/fhir/ValueSet/pathology-service
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-m
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-n
+    - https://tx.hl7.lt/fhir/ValueSet/prostate-tumor-stage-t
+    - https://tx.hl7.lt/fhir/ValueSet/sample-examination
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-adequacy
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-focality
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-type
+    - https://tx.hl7.lt/fhir/ValueSet/screening-programme
+    - https://tx.hl7.lt/fhir/ValueSet/lipoprotein-a-method
+    - https://tx.hl7.lt/fhir/ValueSet/ast-method
+    - https://tx.hl7.lt/fhir/ValueSet/alt-method
+    - http://terminology.hl7.org/ValueSet/icd-o-3
+    - https://tx.hl7.lt/fhir/ValueSet/icd-o-3
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenContainer-eu-lab
+    - http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab 
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-identifier
+    - https://tx.hl7.lt/fhir/CodeSystem/tumor-component-lt-lab
+    - https://tx.hl7.lt/fhir/ValueSet/periprostatic-fat-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/seminal-vesicle-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/perineural-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/lymphovascular-invasion
+    - https://tx.hl7.lt/fhir/ValueSet/tumor-volume-methodology
+    - https://tx.hl7.lt/fhir/CodeSystem/ihc-expression-level
+    - https://tx.hl7.lt/fhir/ValueSet/ihc-expression-level
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-ihc-score
+    - https://tx.hl7.lt/fhir/ValueSet/her2-ihc-score
+    - https://tx.hl7.lt/fhir/CodeSystem/her2-fish-result
+    - https://tx.hl7.lt/fhir/ValueSet/her2-fish-result
+    - https://tx.hl7.lt/fhir/ValueSet/histological-grading
+    - https://tx.hl7.lt/fhir/CodeSystem/plvi-classification
+    - https://tx.hl7.lt/fhir/ValueSet/plvi-classification
+    - https://tx.hl7.lt/fhir/ValueSet/specimen-additive
+    - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-t
+    - https://tx.hl7.lt/fhir/ValueSet/cervical-tumor-stage-n
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ObservationRadiationDoseEuImaging
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-effective-dose-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-dose-length-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-gray-square-units
+# - http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab
+
+
 
   excludettl: true
   shownav: true
@@ -101,7 +141,12 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Pathology: pathology.html
+  Pathology:
+    Workflow: pathology-workflow.html
+    Report: pathology-report.html
+  Profiles: profiles.html
+  Terminology: terminology.html
+  Examples: examples.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
@@ -183,7 +228,24 @@ groups:
     - StructureDefinition/triglycerides-lab-lt
     - StructureDefinition/lipidogram-lab-lt
     - StructureDefinition/glucose-venous-lab-lt
-    - ValueSet/cholesterol-ldl-method-lab-lt
+    - ValueSet/cholesterol-ldl-method
+    - StructureDefinition/apolipoprotein-b-lab-lt
+    - StructureDefinition/lipoprotein-a-lab-lt
+    - ValueSet/lipoprotein-a-method
+    - StructureDefinition/hs-crp-lab-lt
+  GroupF:
+    name: "Liver Function"
+    description: "Liver function enzyme observations"
+    resources:
+    - StructureDefinition/ast-lab-lt
+    - StructureDefinition/alt-lab-lt
+    - ValueSet/ast-method
+    - ValueSet/alt-method
+  GroupG:
+    name: "Electrolytes"
+    description: "Electrolyte observations"
+    resources:
+    - StructureDefinition/potassium-lab-lt
   GroupB:
     name: "Glycemic Control"
     description: "Glycemic Control observations and Diabetes Monitoring"
@@ -196,7 +258,32 @@ groups:
     - StructureDefinition/acr-lab-lt
     - StructureDefinition/creatinine-test-lab-lt
     - StructureDefinition/egfr-lab-lt
-    - ValueSet/egfr-method-lab-lt
+    - ValueSet/egfr-method
+  GroupD:
+    name: "Pathology"
+    description: "Pathology orders, reports, and related profiles"
+    resources:
+    - StructureDefinition/pathology-order-lt-lab
+    - StructureDefinition/pathology-composition-lt-lab
+    - StructureDefinition/pathology-report-lt-lab
+    - ValueSet/pathology-procedure
+    - StructureDefinition/prostate-condition-lt-lab
+    - StructureDefinition/her2-receptor-status-observation-lt-lab
+    - StructureDefinition/biopsy-procedure-lt-lab
+    - StructureDefinition/radiation-dose-lt-lab
+  GroupE:
+    name: "Specimen"
+    description: "Specimen and specimen-related observations"
+    resources:
+    - StructureDefinition/specimen-lt-lab
+    - StructureDefinition/specimen-block-lt-lab
+    - StructureDefinition/substance-additive-lt-lab
+    - StructureDefinition/specimen-adequacy-lt-lab
+    - StructureDefinition/specimen-measurement-lt-lab
+    - StructureDefinition/tumor-measurement-lt-lab
+    - StructureDefinition/tumor-observable-lt-lab
+
+
 
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
