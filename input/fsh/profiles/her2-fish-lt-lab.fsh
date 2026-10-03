@@ -30,16 +30,16 @@ Description: "HER2 gene amplification molecular test observation (FISH, CISH, or
 * component[her2-average].value[x] 1..1
 * component[her2-average].value[x] only Quantity
 * component[her2-average].valueQuantity.system = $ucum
-* component[her2-average].valueQuantity.code = #{copies}/nucleus
+* component[her2-average].valueQuantity.code = #{copies}/{nucleus}
 
 // CEP17 average
 * component contains cep17-average 0..1
 * component[cep17-average] ^short = "CEP17 average signal count"
-* component[cep17-average].code = $loinc#85319-2 "HER2 [Presence] in Breast cancer specimen by Immune stain"
+* component[cep17-average].code = $loinc#85319-2 "HER2 Ag [Presence] in Breast cancer specimen by Immune stain"
 * component[cep17-average].value[x] 1..1
 * component[cep17-average].value[x] only Quantity
 * component[cep17-average].valueQuantity.system = $ucum
-* component[cep17-average].valueQuantity.code = #{copies}/nucleus
+* component[cep17-average].valueQuantity.code = #{copies}/{nucleus}
 
 // HER2/CEP17 ratio
 * component contains her2-cep17-ratio 0..1

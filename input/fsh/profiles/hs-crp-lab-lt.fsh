@@ -13,7 +13,7 @@ Used for cardiovascular risk stratification: CRP > 2 mg/L indicates increased CV
 * ^experimental = true
 * ^publisher = "HL7 Lithuania"
 * category = $observation-category#laboratory "Laboratory"
-* code = $loinc#30522-7 "CRP [Mass/volume] in Serum or Plasma by High sensitivity method"
+* code = $loinc#30522-7 "C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method"
 * subject 1..
 * subject only Reference(PatientLt)
 * effective[x] 1..
